@@ -13159,6 +13159,14 @@ body.open-quickview-block .biolife-quickview-block{
         display: none !important;
     }
 }
+/* 父容器fixed */
+@media screen and (max-width: 767px) {
+    .tab-contain {
+        position: absolute !important; 
+        height: 800px !important;       
+        overflow: hidden;             
+    }
+}
 
 @media ( max-width: 399px){
     .biolife-gird-banners .grid-panel .list-media .media-contain{
